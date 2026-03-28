@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        APP_NAME    = 'my-nginx-web'
+        APP_NAME    = 'warattaya09/my-nginx-web'
         IMAGE_TAG   = "${BUILD_NUMBER}"
     }
 
